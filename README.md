@@ -64,7 +64,7 @@ We provide sample initial condition and atmospheric variables in `sample_GLORYS_
 
 The auxiliary data files include `max_GLORYS.npy`, `min_GLORYS.npy`, `max_flux.npy`, `min_flux.npy`, `mask_GLORYS.nc`. 
 
-The above eight files together with `inference.py` as well as packed conda environment `WenHai_env.tgz` are available at this google drive folder.
+The above eight files as well as packed conda environment `WenHai_env.tgz` are available at this google drive folder (https://drive.google.com/drive/folders/1KxCMZcaOaP5Jm37aWwYwNKTMMs2gf85V?usp=sharing).
 
 ### Tips
 
