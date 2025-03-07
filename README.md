@@ -4,6 +4,8 @@ This is the official repository for the paper "Forecasting the Eddying Ocean wit
 
 by Yingzhe Cui, Ruohan Wu, Xiang Zhang, Ziqi Zhu, Bo Liu, Jun Shi, Junshi Chen, Hailong Liu, Shenghui Zhou, Liang Su, Zhao Jing, Hong An, Lixin Wu
 
+Cui, Y., Wu, R., Zhang, X. et al. Forecasting the eddying ocean with a deep neural network. Nat Commun 16, 2268 (2025). https://doi.org/10.1038/s41467-025-57389-2
+
 ### Overview
 
 WenHai can be thought of a hybrid-AI model that utilizes both physical formulae as well as deep learning model. The general workflow is as following: (1) data preparation; (2) air-sea fluxes calculation using bulk formulae; (3) Swin-Transformer-based model inference that generates forecast files in NetCDF format. For convenience, (2) and (3) are implemented in one script.  
