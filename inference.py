@@ -105,7 +105,7 @@ for i in range(nday):
     # send u0, v0, t0 and atmospheric file to calc_bulk_flux
     bulk_flux = calc_bulk_flux(input_tensor[0,0],input_tensor[0,23],input_tensor[0,46], forcing_path, i)
     # inference
-    inputs = {name1: input_tensor.astype(np.float16).clip(0,1), name2:bulk_flux}  
+    inputs = {name1: input_tensor.astype(np.float16), name2:bulk_flux}  
     output = session.run(None, inputs)[0]
     output += input_tensor
     output *= mask
